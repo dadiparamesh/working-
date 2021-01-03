@@ -8,7 +8,6 @@ const search: SearchPageObject = new SearchPageObject();
 
 
 Given(/^I navigate to the entry page$/, async () => {
-    //expect(browser.getTitle()).to.eventually.equal("5 Weather Forecast");
    await search.searchTextBox.clear();
     await search.searchTextBox.sendKeys("Aberdeen");
     await search.searchTextBox.sendKeys(protractor.Key.ENTER);

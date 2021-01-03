@@ -11,3 +11,4 @@ export class SearchPageObject {
         this.logo = $("div.logo img");
     }
 }
+
